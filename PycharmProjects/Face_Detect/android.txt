@@ -1,0 +1,3 @@
+title=Face Detect
+author=Jerry Yang
+orientation=portrait

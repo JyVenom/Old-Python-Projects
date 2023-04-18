@@ -1,0 +1,3 @@
+title=who goes first
+author=Jerry
+orientation=lanscape

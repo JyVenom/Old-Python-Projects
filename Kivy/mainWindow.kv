@@ -1,0 +1,23 @@
+<CustomButton@Button>:
+    font_size: 32
+    color: 0, 0, 0, 1
+    size: 150, 50
+    background_normal: ''
+    background_down: 'gray.png'
+    background_color: 0.88, 0.88, 0.88, 1
+    size_hint: .9, .4
+
+<FloatLayout>:
+    BoxLayout:
+        TextInput:
+            id: entry
+            font_size: 32
+            multiline: False
+    CustomButton:
+        text: "Player Start"
+        pos_hint: {"x": .05, "y": 0.55}
+        on_touch_up: entry.text = '1'
+    CustomButton:
+        text: "Computer Start"
+        pos_hint: {"x": .05, "y": .05}
+        on_touch_up: entry.text = '2'
